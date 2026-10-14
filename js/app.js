@@ -1,3 +1,4 @@
-import { load } from "./storage.js";
+import * as inventory from "./inventory.js";
 
-console.log("App started. Products in storage:", load("products"));
+window.inventory = inventory;
+console.log("Try: inventory.addProduct({ name: 'Rice 5kg', price: 1200, stock: 20 })");
