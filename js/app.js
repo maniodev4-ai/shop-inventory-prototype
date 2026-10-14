@@ -1,4 +1,5 @@
 import * as inventory from "./inventory.js";
+import * as sales from "./sales.js";
 
 window.inventory = inventory;
-console.log("Try: inventory.addProduct({ name: 'Rice 5kg', price: 1200, stock: 20 })");
+window.sales = sales;
